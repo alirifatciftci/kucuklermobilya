@@ -39,7 +39,6 @@ import kombi6 from '../assets/kombi dolapları/f856187f-a1c0-499c-9b65-e99fce5a6
 // Mutfak resimleri
 import mutfak1 from '../assets/mutfak/0b91e147-cfb5-4be4-b9d3-33be83916fe1.jpg';
 import mutfak2 from '../assets/mutfak/0c96c649-9f13-490a-836b-384427c23d58.jpg';
-import mutfak3 from '../assets/mutfak/28b6ad7c-5f78-40d4-ba70-7222efd2e108.jpg';
 import mutfak4 from '../assets/mutfak/45df859d-05e0-4f71-ba02-a8654d0ec924.jpg';
 import mutfak5 from '../assets/mutfak/52bddc5f-b5fe-4944-b1b0-dcc1e2db3848.jpg';
 import mutfak6 from '../assets/mutfak/555ee883-46fe-46b5-b782-e7871168ca72.jpg';
@@ -98,7 +97,7 @@ const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   const categories: CategoryData[] = [
-    { name: 'Mutfak', images: [mutfak2, mutfak1, mutfak3, mutfak4, mutfak5, mutfak6, mutfak7, mutfak8, mutfak9, mutfak10, mutfak11, mutfak12, mutfak13] },
+    { name: 'Mutfak', images: [mutfak2, mutfak1, mutfak4, mutfak5, mutfak6, mutfak7, mutfak8, mutfak9, mutfak10, mutfak11, mutfak12, mutfak13] },
     { name: 'Banyo', images: [banyo1, banyo2, banyo3, banyo4, banyo5, banyo6, banyo7] },
     { name: 'Gardrop', images: [gardrop14, gardrop1, gardrop2, gardrop3, gardrop4, gardrop5, gardrop6, gardrop7, gardrop8, gardrop9, gardrop10, gardrop11, gardrop12, gardrop13, gardrop15, gardrop16] },
     { name: 'Kombi Dolapları', images: [kombi1, kombi2, kombi3, kombi4, kombi5, kombi6] },
