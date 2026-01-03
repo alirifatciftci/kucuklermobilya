@@ -146,7 +146,7 @@ const Gallery = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {categories.map((category) => (
             <div
               key={category.name}
@@ -161,8 +161,8 @@ const Gallery = () => {
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end">
-                <div className="p-5 w-full">
-                  <h3 className="text-xl font-bold text-white">{category.name}</h3>
+                <div className="p-6 w-full">
+                  <h3 className="text-2xl font-bold text-white">{category.name}</h3>
                 </div>
               </div>
               <div className="absolute inset-0 bg-amber-700/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>

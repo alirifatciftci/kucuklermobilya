@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Instagram } from 'lucide-react';
 import mainImage from '../assets/main.jpg';
 
 const Hero = () => {
@@ -7,6 +7,10 @@ const Hero = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const openInstagram = () => {
+    window.open('https://instagram.com/kucuklermobilya', '_blank');
   };
 
   return (
@@ -45,6 +49,13 @@ const Hero = () => {
             className="bg-transparent border-2 border-white hover:bg-white hover:text-neutral-900 text-white px-8 py-4 rounded-sm text-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-xl"
           >
             Teklif Al
+          </button>
+          <button
+            onClick={openInstagram}
+            className="group bg-transparent border-2 border-white hover:bg-white hover:text-neutral-900 text-white px-8 py-4 rounded-sm text-lg font-medium transition-all duration-300 transform hover:scale-105 flex items-center gap-2 shadow-xl"
+          >
+            Instagram
+            <Instagram className="group-hover:scale-110 transition-transform" />
           </button>
         </div>
       </div>

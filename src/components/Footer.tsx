@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="text-2xl font-bold mb-4">TUZLA MOBİLYA</h3>
+            <h3 className="text-2xl font-bold mb-4">KÜÇÜKLER MOBİLYA</h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Özel tasarım, el işçiliğiyle üretilmiş kaliteli mobilyalar.
               Tuzla, İstanbul'da hizmetinizdeyiz.
@@ -83,7 +83,7 @@ const Footer = () => {
 
         <div className="border-t border-neutral-800 mt-12 pt-8 text-center text-gray-400">
           <p>
-            &copy; {currentYear} Tuzla Mobilya. Tüm hakları saklıdır.
+            &copy; {currentYear} Küçükler Mobilya. Tüm hakları saklıdır.
           </p>
           <p className="mt-2 text-sm font-light tracking-wide">
             designed by{' '}

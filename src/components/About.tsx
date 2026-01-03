@@ -1,4 +1,5 @@
 import { Hammer, Award, Heart } from 'lucide-react';
+import hakImage from '../assets/hak.png';
 
 const About = () => {
   const features = [
@@ -48,7 +49,7 @@ const About = () => {
 
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/6045275/pexels-photo-6045275.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src={hakImage}
               alt="Mobilya Atölyesi"
               className="rounded-sm shadow-2xl"
             />
