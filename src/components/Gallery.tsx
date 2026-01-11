@@ -27,6 +27,11 @@ import gardrop13 from '../assets/gardrop/d1b3ca42-52b0-4753-a958-4d859a5cffa3.jp
 import gardrop14 from '../assets/gardrop/e4a22f4c-697b-496a-a476-61da6f27a228.jpg';
 import gardrop15 from '../assets/gardrop/f65d3a01-890e-4436-a790-6d52f55ac60e.jpg';
 import gardrop16 from '../assets/gardrop/f7d64dd5-1b1e-48b8-9dc0-1c2c5a804e70.jpg';
+import gardrop17 from '../assets/gardrop/0430d1e8-5829-45df-8588-28c9a4e8fa41.jpg';
+import gardrop18 from '../assets/gardrop/848de7e0-947b-4916-8aaa-660856d864f3.jpg';
+import gardrop19 from '../assets/gardrop/b13595ce-19ac-427c-9f1a-758f3e9fcf73.jpg';
+import gardrop20 from '../assets/gardrop/b96d08ed-7bbc-499b-a943-edb5f70da53c.jpg';
+import gardrop21 from '../assets/gardrop/f5948f5d-0c03-4b18-a06b-6e72f4c1e70f.jpg';
 
 // Kombi dolapları resimleri
 import kombi1 from '../assets/kombi dolapları/298e170e-7eeb-4b06-82e1-404952482f11.jpg';
@@ -35,6 +40,10 @@ import kombi3 from '../assets/kombi dolapları/64cdd58b-334d-45ad-a868-210490880
 import kombi4 from '../assets/kombi dolapları/bb64c012-c5f3-4e87-85ec-0338a22a6144.jpg';
 import kombi5 from '../assets/kombi dolapları/c06b2948-24e8-4e30-a6a9-957f9f44945f.jpg';
 import kombi6 from '../assets/kombi dolapları/f856187f-a1c0-499c-9b65-e99fce5a6a87.jpg';
+import kombi7 from '../assets/kombi dolapları/0acbb968-aa7c-4595-b768-2deb2d43f233.jpg';
+import kombi8 from '../assets/kombi dolapları/579f50cd-aedf-4663-863f-4533f944c019.jpg';
+import kombi9 from '../assets/kombi dolapları/6927c129-b662-43d6-b86e-e1effb8dc0c5.jpg';
+import kombi10 from '../assets/kombi dolapları/79d90f15-960e-4395-b38b-53be0a56b704.jpg';
 
 // Mutfak resimleri
 import mutfak1 from '../assets/mutfak/0b91e147-cfb5-4be4-b9d3-33be83916fe1.jpg';
@@ -49,6 +58,12 @@ import mutfak10 from '../assets/mutfak/9910cea6-af73-4174-b2ef-7149e68c6f65.jpg'
 import mutfak11 from '../assets/mutfak/e3de6e8e-d207-4c02-a2b6-5f71a76a35a7.jpg';
 import mutfak12 from '../assets/mutfak/f14d2629-7e6e-415b-951b-04bac2c38ae3.jpg';
 import mutfak13 from '../assets/mutfak/f58ad1eb-35db-432f-8ffa-c802385489cb.jpg';
+import mutfak14 from '../assets/mutfak/0f2c470a-38dd-451f-ab02-34e1a8d1c01c.jpg';
+import mutfak15 from '../assets/mutfak/2671bdfa-affd-4def-9d1d-3e876b29210f.jpg';
+import mutfak16 from '../assets/mutfak/2d68f52b-5671-4213-ae9b-02c714f6b409.jpg';
+import mutfak17 from '../assets/mutfak/4015faf7-6679-4db3-8faf-a3659356d88f.jpg';
+import mutfak18 from '../assets/mutfak/e45dd8b4-5d6f-450e-bd00-74febae913e2.jpg';
+import mutfak19 from '../assets/mutfak/fd78009b-827b-425c-937b-97864c66e877.jpg';
 
 // Portmanto resimleri
 import portmanto1 from '../assets/portmanto/03e97062-5ab1-45e3-9564-4c41b6fbc272.jpg';
@@ -63,6 +78,11 @@ import portmanto9 from '../assets/portmanto/c2a65343-79db-4c90-b2cc-29baf39544b1
 import portmanto10 from '../assets/portmanto/cbf58234-4903-4d91-8866-853f57d85f7a.jpg';
 import portmanto11 from '../assets/portmanto/d47fb6e0-7d21-4f01-9d0d-5438e3dc537f.jpg';
 import portmanto12 from '../assets/portmanto/e28d433f-a06c-4bca-86fd-443ca5c53229.jpg';
+import portmanto13 from '../assets/portmanto/10c584a7-a11e-4dee-90ff-b9bb902af670.jpg';
+import portmanto14 from '../assets/portmanto/340d5d23-021e-4564-861a-e0e017079c69.jpg';
+import portmanto15 from '../assets/portmanto/4ce2ba45-c96a-481e-a5a7-a7e91a6a5f8f.jpg';
+import portmanto16 from '../assets/portmanto/89cea4a0-bc7a-4ad4-9a65-74d4f8f23223.jpg';
+import portmanto17 from '../assets/portmanto/fe67bf48-5564-41ce-b874-9d4fe9d15139.jpg';
 
 // Ranza resimleri
 import ranza1 from '../assets/ranza/1eaadde5-3eec-45e1-97c6-c70af909a303.jpg';
@@ -97,11 +117,11 @@ const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   const categories: CategoryData[] = [
-    { name: 'Mutfak', images: [mutfak2, mutfak1, mutfak4, mutfak5, mutfak6, mutfak7, mutfak8, mutfak9, mutfak10, mutfak11, mutfak12, mutfak13] },
+    { name: 'Mutfak', images: [mutfak2, mutfak1, mutfak4, mutfak5, mutfak6, mutfak7, mutfak8, mutfak9, mutfak10, mutfak11, mutfak12, mutfak13, mutfak14, mutfak15, mutfak16, mutfak17, mutfak18, mutfak19] },
     { name: 'Banyo', images: [banyo1, banyo2, banyo3, banyo4, banyo5, banyo6, banyo7] },
-    { name: 'Gardrop', images: [gardrop14, gardrop1, gardrop2, gardrop3, gardrop4, gardrop5, gardrop6, gardrop7, gardrop8, gardrop9, gardrop10, gardrop11, gardrop12, gardrop13, gardrop15, gardrop16] },
-    { name: 'Kombi Dolapları', images: [kombi1, kombi2, kombi3, kombi4, kombi5, kombi6] },
-    { name: 'Portmanto', images: [portmanto1, portmanto2, portmanto3, portmanto4, portmanto5, portmanto6, portmanto7, portmanto8, portmanto9, portmanto10, portmanto11, portmanto12] },
+    { name: 'Gardrop', images: [gardrop14, gardrop1, gardrop2, gardrop3, gardrop4, gardrop5, gardrop6, gardrop7, gardrop8, gardrop9, gardrop10, gardrop11, gardrop12, gardrop13, gardrop15, gardrop16, gardrop17, gardrop18, gardrop19, gardrop20, gardrop21] },
+    { name: 'Kombi Dolapları', images: [kombi1, kombi2, kombi3, kombi4, kombi5, kombi6, kombi7, kombi8, kombi9, kombi10] },
+    { name: 'Portmanto', images: [portmanto1, portmanto2, portmanto3, portmanto4, portmanto5, portmanto6, portmanto7, portmanto8, portmanto9, portmanto10, portmanto11, portmanto12, portmanto13, portmanto14, portmanto15, portmanto16, portmanto17] },
     { name: 'Ranza', images: [ranza1, ranza2] },
     { name: 'TV Ünite', images: [tvImage, tvunite1, tvunite2] },
     { name: 'Çok Amaçlı Dolap', images: [cokamacli1, cokamacli2, cokamacli3, cokamacli4, cokamacli5, cokamacli6, cokamacli7, cokamacli8, cokamacli9, cokamacli10] },
